@@ -10,7 +10,7 @@ const App = () => {
     return (
       <div>
           {/* Do not remove the main div */}
-          <PageLayout header={head} footer={foot}>This is the content of my page</PageLayout>
+          <PageLayout header={head} footer={foot}>This is the content of my Website</PageLayout>
       </div>
     )
 }
