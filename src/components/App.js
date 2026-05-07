@@ -1,13 +1,18 @@
 
 import React from "react";
 import './../styles/App.css';
+import PageLayout from "./PageLayout";
 
 const App = () => {
-  return (
-    <div>
-        {/* Do not remove the main div */}
-    </div>
-  )
+    let head = <h1>Welcome to my Page</h1>
+    let foot = <p>©️2023 My Website. All rights reserved</p>
+
+    return (
+      <div>
+          {/* Do not remove the main div */}
+          <PageLayout header={head} footer={foot}>This is the content of my page</PageLayout>
+      </div>
+    )
 }
 
 export default App
