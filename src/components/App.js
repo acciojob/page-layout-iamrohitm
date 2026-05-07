@@ -4,7 +4,7 @@ import './../styles/App.css';
 import PageLayout from "./PageLayout";
 
 const App = () => {
-    let head = <h1>Welcome to my Page</h1>
+    let head = <h1>Welcome to my website</h1>
     let foot = <p>©️2023 My Website. All rights reserved</p>
 
     return (
